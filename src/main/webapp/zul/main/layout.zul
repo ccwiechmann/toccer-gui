@@ -1,0 +1,11 @@
+<borderlayout>
+	<north border="none" sclass="header">
+		<include src="/zul/main/header.zul" />
+	</north>
+	<west border="none" sclass="navbar">
+		<include src="/zul/main/navbar.zul" />
+	</west>
+	<center id="mainCenter" border="none" autoscroll="true">
+		<include src="/zul/main/home.zul" />
+	</center>
+</borderlayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+    <system-config>
+        <label-location>/labels/labels.properties</label-location>
+        <disable-zscript>true</disable-zscript>
+    </system-config>
+</zk>

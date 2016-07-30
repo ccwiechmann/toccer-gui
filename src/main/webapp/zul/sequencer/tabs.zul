@@ -1,0 +1,47 @@
+<window vflex="1" hflex="1"
+	apply="de.ccw.toccer.controller.sequencer.WebpageTabController">
+	<vlayout vflex="1" hflex="1">
+		<grid sclass="overview nohover">
+			<columns>
+				<column hflex="min" />
+				<column />
+			</columns>
+			<rows>
+				<row>
+					<label id="bandUrlLabel" />
+					<label id="bandUrl" />
+				</row>
+			</rows>
+		</grid>
+		<tabbox hflex="1" vflex="1">
+			<tabs>
+				<tab id="tabWebpage" />
+				<tab id="tabSelection" />
+			</tabs>
+			<tabpanels>
+				<tabpanel
+					apply="de.ccw.toccer.controller.sequencer.WebpageSelectionController"
+					hflex="1" vflex="1">
+					<vlayout hflex="1" vflex="1">
+						<hlayout hflex="1" vflex="min">
+							<textbox id="url" hflex="1" vflex="min" />
+							<button id="save" hflex="min" vflex="min" />
+						</hlayout>
+						<iframe id="iframe" hflex="1" vflex="1" />
+					</vlayout>
+				</tabpanel>
+				<tabpanel
+					apply="de.ccw.toccer.controller.sequencer.TreeOverviewController"
+					hflex="1" vflex="1">
+					<tree id="tree" vflex="1" width="400px">
+						<treecols sizable="true">
+							<treecol label="Tag" />
+							<treecol label="Wert" />
+						</treecols>
+						<treechildren />
+					</tree>
+				</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</vlayout>
+</window>

@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+[class*="z-"]:not([class*="z-icon-"]) {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+}
+
+div.header {
+	position: relative;
+	height: 100px;
+	width: 100%;
+}
+
+div.navbar {
+	height: 100%;
+	width: 150px;
+}
+
+.navbar .z-button {
+	border-style: none;
+	background: none;
+	text-align: left;
+	box-shadow: none;
+}
+
+.navbar .z-button:hover {
+	border-style: none;
+	border-color: #ffffff;
+	background-color: #e6e6e6;
+}
+
+.navbar .active {
+	background-color: #e6e6e6;
+	color: #000066;
+}
+
+.navbar .z-button i {
+	padding-right: 3px;
+}
+
+.z-tabbox {
+	padding: 15px;
+	padding-top: 3px;
+}
+
+.z-iframe {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cfcfcf;
+}
+
+.z-grid.overview {
+	margin: 15px;
+	margin-bottom: 0;
+ 	margin-top: 0;
+}
